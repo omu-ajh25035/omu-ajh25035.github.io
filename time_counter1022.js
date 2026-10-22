@@ -15,8 +15,8 @@ function updateClock() {
     document.getElementById('clock').innerHTML = timeString;
 }
         
-        // 1秒ごとにupdateClock関数を実行
+// 1秒ごとにupdateClock関数を実行
 setInterval(updateClock, 1000);
         
-        // ページ読み込み時に即座に表示
+// ページ読み込み時に即座に表示
 window.onload = updateClock;
